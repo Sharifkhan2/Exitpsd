@@ -1,0 +1,787 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cardo:ital,wght@0,700;1,400&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:ital,wght@0,700;0,800;1,400;1,500;1,600;1,800&family=Raleway:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cardo:ital,wght@0,700;1,400&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:ital,wght@0,700;0,800;1,400;1,500;1,600;1,800&family=Raleway:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 35px;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* ...................header-section start............  */
+.deader-section{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    
+}
+.deader-section .continer{
+    width: 1200px;
+    height: 100%;
+    padding: 0 35px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.deader-section .continer .manuber{
+    display: flex;
+    
+}
+.deader-section .continer .manuber li{
+    padding-left: 46px;
+    
+    
+}
+.deader-section .continer .manuber li a{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+/* ..................header-section end...............  */
+
+/* ...................banner-section start....................  */
+
+.banner-section{
+    width: 100%;
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-section .continer{
+    height: 100%;
+    padding: 0 35px;
+    padding-top: 107px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 138px;
+    position: relative;
+}
+.banner-section .continer .banner1{
+    width: 50%;
+   
+}
+.banner-section .continer .banner1 .img{
+    margin-bottom: 33px;
+    width: 182px;
+    height: 64px;
+}
+.banner-section .continer .banner1 .img img{
+    height: 100%;
+    width: 100%;
+}
+.banner-section .continer .banner1 .paragraph h1{
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    line-height: 36px;
+    padding-right: 25px;
+
+}
+.banner-section .continer .banner1 .paragraph .under-line{
+    height: 2px;
+    width: 60px;
+    background-color: #fff;
+    margin: 39px 0;
+}
+.banner-section .continer .banner1 .paragraph p{
+    font-size: 16px;
+    color:#fff;
+    margin-bottom: 45px;
+    font-weight: light;
+    font-family: 'Raleway', sans-serif;
+    line-height: 18px;
+}
+.banner-section .continer .banner1 .paragraph a{
+    padding: 13px 31px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner2{
+    width: 50%;
+    position: relative;
+}
+.banner2 .loging-pag{
+    /* height: 364px; */
+    width: 364px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-20%);
+    top: 10%;
+}
+.banner2 .loging-pag .continer{
+    height: 55px;
+    width: 100%;
+    padding: 10px 60px;
+    background-color: #e8e8e8;
+}
+.banner2 .loging-pag .continer h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+.continer samp{
+    color: #ff8b38;
+    text-transform: uppercase;
+}
+.banner2 .loging-pag .user, .password, .email{
+    border: none;
+    padding: 30px 10px;
+    border-bottom: 1px solid black;
+    margin-left: 40px;
+    padding-bottom: 5px;
+    width: 280px;
+}
+.banner2 .loging-pag .get{
+    border: none;
+    margin-top: 50px;
+    padding: 20px 140px;
+    background-color: #ff9b51;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-family: 600;
+}
+::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ..........................banner-section end.................  */
+/* ..........................social midia start.............  */
+.social-media{
+    height: 106px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #cccccc;
+    
+}
+.social-media .continer{
+    background-color: #fff;
+    height: 106px;
+    display: flex;
+    /* justify-content: right; */
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+    
+}
+.social-media .continer h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+.social-media .continer .headline{
+    width: 40%;
+    padding-right: 90px;
+}
+.social-media .continer .fontawesome{
+    width: 60%;
+    text-align: right;
+   
+}
+.social-media .continer p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #bbbcbe;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.social-media .continer .fontawesome .font{
+    font-size: 40px;
+    margin-left: 50px;   
+}
+/* ........................social midia end....................  */
+
+/* .....................banner section2 start..............  */
+
+.banner-section2{
+    width: 100%;
+    /* height: 600px; */
+    /* background-color: #ff8b38; */
+    background-color: #f5f5f5;
+}
+.banner-section2 .continer{
+    /* height: 100%; */
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 152px;
+    padding-bottom: 120px;
+}
+.banner-section2 .continer .point{
+    width: 15%;
+
+}
+.banner-section2 .continer .tap1{
+    padding: 46px 36px;
+    background-color: #ff8b38;
+    margin-bottom: 0.5px;
+}
+.banner-section2 .continer .tap2{
+    padding: 46px 36px;
+    background-color: #333333;
+    margin-bottom: 0.5px;
+}
+
+.banner-section2 .continer .tap3{
+    padding: 46px 36px;
+    background-color: #333333;
+}
+.banner-section2 .continer .paragraph{
+    width: 50%;
+}
+.banner-section2 .continer .img-section{
+    width: 25%;
+}
+.banner-section2 .continer .paragraph h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 58px;
+    color: #000;
+}
+.banner-section2 .continer .paragraph .para{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner-section2 .continer .paragraph .second-para{
+    padding-right: 80px;
+    margin-top: 28px;
+    margin-bottom: 52px;
+}
+.banner-section2 .continer .paragraph .first-para{
+    padding-right: 80px;
+}
+.banner-section2 .continer .paragraph a{
+    padding: 17px 25px;
+    background-color: #ff8b38;
+}
+
+/* .............................banner section2 end.................  */
+
+
+/* ...............sub-list-section start..............  */
+
+.sub-list-section{
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.sub-list-section .continer{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 130px;
+    padding-bottom: 136px;
+}
+.sub-list-section .continer .img-section{
+    width: 45%;
+
+}
+.sub-list-section .continer  .content{
+    width: 45%;
+}
+.sub-list-section .continer  .content h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+
+}
+.sub-list-section .continer  .content .line-div{
+    height: 1px;
+    width: 65px;
+    background-color: #e8e8e8;
+    margin-bottom: 30px;
+}
+.sub-list-section .continer  .content .section5{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    margin-bottom: 50px; 
+}
+
+.font-section{
+    display: flex;
+}
+.font-section .fontawesome{
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 43px;
+    padding: 20px 20px;
+    /* background-color: #e8e8e8; */
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+}
+.font-section .para1 h3{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+
+}
+.font-section .para1 p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+   
+}
+.font-section .para1{
+    margin-bottom: 43px;
+}
+.fa-cloud-arrow-down{
+    color: #ff8b38;
+}
+.fa-cloud-arrow-up{
+    color: #ff8b38;
+}
+
+/* ...............................sub-list-section end................  */
+/* ...........................Standard-Picture-Section start............  */
+
+.Standard-Picture-Section{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.Standard-Picture-Section .continer{
+    /* background-color: #00a824; */
+    display: flex;
+    padding-top: 108px;
+    justify-content: space-between;
+    padding-bottom: 128px;
+}
+.Standard-Picture-Section .continer .banner4{
+    width: 50%;
+}
+.Standard-Picture-Section .continer .img-para7{
+    width: 40%;
+}
+.Standard-Picture-Section .continer .banner4 h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    margin-bottom: 30px;
+
+}
+.Standard-Picture-Section .continer .banner4 .line5{
+    height: 1px;
+    width: 42px;
+    background-color: #ff8b38;
+    margin-bottom: 30px;
+}
+.Standard-Picture-Section .continer .banner4 .top-para{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #a2a3a6;
+    line-height: 16px;
+    margin-bottom: 30px;
+    padding-right: 93px;
+
+}
+.Standard-Picture-Section .continer .banner4 .bottom-para{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #a2a3a6;
+    padding-right: 90px;
+
+}
+/* .........................Standard-Picture-Section end..............  */
+
+/* ............................awesome start...........................  */
+
+.awesome{
+    width: 100%;
+    /* background-color: aqua; */
+}
+.awesome .continer{
+    /* background-color: brown; */
+    padding-top: 110px;
+    text-align: center;
+    
+}
+.awesome .continer h2{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+    color: #000;
+}
+.awesome .continer .faka-section{
+    width: 72px;
+    height: 1px;
+    background-color: #ff8b38;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 32px;
+}
+.awesome .continer p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #a2a3a6;
+    margin-bottom: 80px;
+}
+.awesome .continer .banner-section8{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-lightbulb, .fa-keyboard, .fa-microphone-lines{
+    font-size: 30px;
+    margin-bottom: 30px;
+   
+}
+.fa-lightbulb, .fa-microphone-lines{
+    padding: 20px 25px;
+    /* background-color: #ff8b38; */
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    color: #ff9b51;
+
+}
+.fa-keyboard{
+    padding: 20px 18px;
+    /* background-color: #ff8b38; */
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    color: #ff9b51;
+}
+.banner-section8 .bulb1 h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+
+
+}
+.banner-section8 .bulb1 p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 16px;
+    margin-bottom: 105px;
+
+}
+
+/* .........................awesome end......................  */
+
+/* ............................basic-section start...............  */
+
+.basic{
+    width: 100%;
+    background-color: #f5f5f5;
+
+}
+.basic .continer{
+    padding-top: 110px;
+    padding-bottom: 92px;
+    
+}
+.basic .continer h2{
+    font-size: 36px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.basic .continer .faka-border{
+    height: 1px;
+    width: 67px;
+    background-color: #ff8b38;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 28px;
+    margin-bottom: 28px;
+   
+}
+.basic .continer p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #a2a3a6;
+    margin-bottom: 80px;
+    text-align: center;
+
+}
+.banner10{
+    display: flex;
+    justify-content: space-between; 
+}
+.basic .continer .number{
+    width: 30%;
+    
+}
+.banner10 .number .basic2{
+    text-align: center;
+    padding: 25px 142px;
+    background-color: #333333;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.word h3{
+    /* text-align: center; */
+    color: #fff;
+    font-size: 98px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 28px 87px;
+    background-color: #333333;
+    border-bottom: 3px solid #ff9b51;
+}
+.basic .continer .bottom-para h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.basic .continer .bottom-para{
+    padding-bottom: 10px;
+    background-color: #fff;
+   
+}
+.number2{
+    margin-top: -20px;
+}
+.word .bottom-head h2{
+   color: #fff;
+   font-size: 14px;
+   padding: 10px 100px;
+   background-color: #ff9b51;
+   position: absolute;
+   bottom: -25px;
+   left: 0;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 700;
+   
+}
+.word{
+    position: relative;
+    border: none;
+}
+.bottom-para1 h3{
+    margin-top: 25px;
+}
+
+/* ...........................basic-section end................  */
+
+/* ............................customers-section start..............  */
+.customers-section .continer{
+    padding-top: 106px;
+    padding-bottom: 100px;
+}
+.customers-section .continer .head-line h2{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #4b4b4b;
+    text-align: center;
+}
+.customers-section .continer .head-line p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #8e8f92;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.customers-section .continer .head-line .brown{
+    height: 1px;
+    width: 75px;
+    background-color: #ff8b38;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+.customers-section .continer .comment{
+    display: flex;
+    justify-content: space-between;
+}
+.comment .comment0{
+    max-width: calc(33.33% - 115px);
+}
+.comment .comment0 .Lorem{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #cdcdce;
+    padding: 26px 0;
+    background-color: #f5f5f5;
+    padding-left: 12px;
+    margin-bottom: 24px;
+}
+.comment5-man p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #cdcdce;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.comment5-man h2{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ................................ customers-section end.................  */
+
+/* ..........................style-section start...................  */
+.style-section{
+    background-image: url(./img/backhroundimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.style-section .continer{
+    padding-top: 71px;
+    position: relative;
+    padding-bottom: 70px;
+   
+}
+.style-section .continer h2{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.style-section .continer .line-white{
+    height: 1px;
+    width: 70px;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    
+}
+.style-section .continer p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #4b4b4b;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.style-section .continer a{
+   position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 30px;
+    color: #fff;
+    border: 3px solid #fff;
+    
+}
+    /* .............................. style-section end......................  */
+
+    /* .............................form-section start...................  */
+
+.form-section .continer{
+    padding-top: 110px;
+    padding-bottom: 162px;
+    position: relative;
+ }
+.from-section .continer h2{
+    font-size: 3p;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.from-section .continer .blue{
+    height: 1px;
+    width: 70px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff8b38;
+
+}
+.from-section .continer p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #4b4b4b;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.input-section .input{
+    width: 45%;
+   
+   
+
+}
+.input1{
+    width: 45%;
+    /* background-color: #ff8b38; */
+}
+.input-section{
+    display: flex;
+}
+.name, .email2, .subject{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid royalblue;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    /* margin-left: 20%; */
+   
+}
+.message{
+    border: none;
+    margin-top: 20px;
+    border-bottom: 1px solid blue;
+    padding-bottom: 102px;
+    width: 100%;
+    padding-left: 5px;
+    margin-left: 20%;
+
+}
+.from-section .continer .send{
+    padding: 17px 24px;
+    background-color: #ff9b51;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 80px;
+}
+
+/* .................................. form-section end........................  */
