@@ -710,78 +710,74 @@ a{
     /* .............................. style-section end......................  */
 
     /* .............................form-section start...................  */
-
 .form-section .continer{
     padding-top: 110px;
-    padding-bottom: 162px;
     position: relative;
- }
-.from-section .continer h2{
-    font-size: 3p;
+    padding-bottom: 162px;
+}
+.form-section .continer h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #000;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin-bottom: 30px;
-}
-.from-section .continer .blue{
+    margin-bottom: 50px;
+}   
+.form-section .continer .blue{
     height: 1px;
-    width: 70px;
+    width: 75px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     background-color: #ff8b38;
-
-}
-.from-section .continer p{
+} 
+.form-section .continer p{
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Raleway', sans-serif;
-    color: #4b4b4b;
+    font-family: 'Open Sans', sans-serif;
+    color: #8e8f92;
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 90px;
-    text-align: center;
-}
-.input-section .input{
-    width: 45%;
-   
-   
 
-}
-.input1{
-    width: 45%;
-    /* background-color: #ff8b38; */
 }
 .input-section{
     display: flex;
+    justify-content: space-between;
 }
-.name, .email2, .subject{
+.input-section .input{
+    width: 45%;
+    /* background-color: #ff8b38; */
+}
+.input-section .input1{
+    width: 45%;
+    /* background-color: #000; */
+}
+.input-section .input .name, .email2, .subject{
     border: none;
+    margin-top: 30px;
+    border-bottom: 1px solid #8e8f92;
     width: 100%;
-    border-bottom: 1px solid royalblue;
-    margin-top: 20px;
     padding-left: 5px;
     padding-bottom: 10px;
-    /* margin-left: 20%; */
-   
 }
-.message{
+.input-section .input1 .message{
     border: none;
-    margin-top: 20px;
-    border-bottom: 1px solid blue;
-    padding-bottom: 102px;
+    margin-top: 30px;
+    border-bottom: 1px solid #8e8f92;
     width: 100%;
     padding-left: 5px;
-    margin-left: 20%;
-
+    padding-bottom: 122px;
 }
-.from-section .continer .send{
+.form-section .continer .send{
+    position: absolute;
     padding: 17px 24px;
-    background-color: #ff9b51;
+    background-color: #f2924d;
     left: 50%;
     transform: translateX(-50%);
-    position: absolute;
-    bottom: 80px;
+    bottom: 10%;
+
 }
 
 /* .................................. form-section end........................  */
+
